@@ -1,0 +1,21 @@
+{
+  "name": "next-action-cookie-history-repro",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "test:history": "node check-history.mjs"
+  },
+  "dependencies": {
+    "next": "^16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "playwright": "^1.55.0",
+    "typescript": "^5"
+  }
+}
